@@ -1,0 +1,185 @@
+
+1. To-Do List (Yapılacaklar Listesi)
+Proje Tanımı:
+Bir yapılacaklar listesi uygulaması oluşturun. Kullanıcı görev ekleyebilir, görevleri tamamlandı olarak işaretleyebilir ve tamamlananları silebilir.
+
+
+İstenilen Özellikler:
+
+Görev ekleme.
+
+Görevleri tamamlama ve tamamlandı olarak işaretleme.
+
+Görev listesini görüntüleme (tamamlananlar ve tamamlanmayanlar ayrı listelerde tutulabilir).
+
+Görev silme.
+
+Verileri bir .txt dosyasına kaydetme ve program çalıştığında yeniden yükleme.
+
+
+Yönerge:
+
+Bir Task (Görev) sınıfı oluşturun. Bu sınıf, görev adı ve tamamlanma durumunu (True/False) saklasın.
+
+Bir TaskManager sınıfı oluşturun. Bu sınıf, görevlerin eklenmesi, silinmesi ve yönetilmesi için gerekli metotları içersin.
+
+
+2. Basit Banka Sistemi
+
+Proje Tanımı:
+Bir banka sistemi tasarlayın. Kullanıcı hesap açabilir, para yatırabilir, çekebilir ve bakiye kontrolü yapabilir.
+
+
+İstenilen Özellikler:
+
+Kullanıcıların hesap açması (ad, hesap numarası, başlangıç bakiyesi ile).
+
+Para yatırma ve çekme işlemleri.
+
+Hesap bakiyesi sorgulama.
+
+Birden fazla kullanıcıyı yönetebilme.
+
+
+Yönerge:
+
+Kullanici adında bir sınıf oluşturun. Bu sınıf, hesap numarasını ve bakiyeyi tutar.
+
+Banka adında bir sınıf oluşturun. Bu sınıf, kullanıcıların oluşturulmasını ve işlemlerinin yapılmasını sağlar.
+
+Giriş kontrolü (hesap numarasına göre) ve para çekme işleminde bakiye kontrolü ekleyin.
+
+
+3. Kütüphane Yönetim Sistemi
+
+Proje Tanımı:
+Bir kütüphane sistemini modelleyin. Kitap ekleme, kitap ödünç verme ve mevcut kitapları listeleme özellikleri sunan bir program yazın.
+
+
+İstenilen Özellikler:
+
+Kitap ekleme ve listeleme.
+
+Kitapları ödünç verme ve geri alma.
+
+Ödünç alınan kitapların listesini ayrı tutma.
+
+
+Yönerge:
+
+Kitap sınıfı oluşturun. Kitap adı, yazar adı ve ödünç alınma durumu (True/False) gibi bilgileri saklayın.
+
+Kutuphane sınıfı oluşturun. Kitap ekleme, ödünç verme ve geri alma gibi metotları barındırın.
+
+
+4. Hava Durumu Uygulaması
+
+Proje Tanımı:
+Bir şehir için hava durumunu tahmin eden bir uygulama yazın. Şehir ve sıcaklık bilgisi girdi olarak alınacak ve önerilerde bulunulacak.
+
+
+İstenilen Özellikler:
+
+Şehir ekleme ve sıcaklık tahmini ekleme.
+
+Şehir adına göre hava durumunu sorgulama.
+
+Sıcaklığa göre tavsiye verme:
+
+0°C altı: "Soğuk, sıkı giyinin."
+
+0°C-15°C arası: "Serin, mont almayı unutmayın."
+
+15°C üzeri: "Hava güzel, rahat giyin."
+
+
+Yönerge:
+
+Bir Sehir sınıfı oluşturun. Bu sınıf, şehir adını ve sıcaklık bilgisini saklasın.
+
+Bir HavaDurumu sınıfı oluşturun. Şehir ekleme, sıcaklık güncelleme ve tavsiye verme gibi işlemleri yönetin.
+
+
+
+5. Alışveriş Sepeti Uygulaması
+
+Proje Tanımı:
+Bir e-ticaret sitesi için alışveriş sepeti uygulaması geliştirin. Kullanıcı ürün ekleyebilir, çıkarabilir ve toplam tutarı görebilir.
+
+
+İstenilen Özellikler:
+
+Ürün ekleme (ürün adı, fiyat ve miktar bilgisiyle).
+
+Sepeti listeleme (ürün adı, miktarı ve fiyatı).
+
+Sepetten ürün çıkarma.
+
+Toplam tutarı hesaplama.
+
+
+Yönerge:
+
+Bir Urun sınıfı oluşturun. Ürün adı, fiyatı ve miktarı saklasın.
+
+Bir Sepet sınıfı oluşturun. Ürün ekleme, çıkarma ve toplam hesaplama gibi işlemleri gerçekleştirin.
+
+
+6. Not Defteri (Notebook)
+
+Proje Tanımı:
+Bir not defteri uygulaması oluşturun. Kullanıcı not ekleyebilir, silebilir ve notlarını tarih sırasına göre listeleyebilir.
+
+
+İstenilen Özellikler:
+
+Not ekleme (not içeriği ve tarih).
+
+Notları listeleme.
+
+Notları silme.
+
+Tüm notları bir .txt dosyasına kaydetme ve yeniden yükleme.
+
+
+Yönerge:
+
+Bir Not sınıfı oluşturun. Not içeriği ve tarih bilgisi tutulsun.
+
+Bir NotDefteri sınıfı oluşturun. Not ekleme, listeleme ve silme işlemlerini yönetin.
+
+
+7. Film Yönetim Sistemi
+
+Proje Tanımı:
+Bir film yönetim uygulaması oluşturun. Filmleri ekleyebilir, silebilir ve listeleyebilirsiniz.
+
+
+İstenilen Özellikler:
+
+Film ekleme (film adı, yönetmen, yıl, tür bilgisiyle).
+
+Filmleri listeleme (türe veya yıla göre filtreleme).
+
+Filmleri silme.
+
+
+Yönerge:
+
+Film sınıfı oluşturun. Film adı, yönetmen, yıl ve tür bilgilerini saklayın.
+
+FilmYoneticisi sınıfı oluşturun. Film ekleme, silme ve listeleme işlemleri yapılabilsin.
+
+
+Açıklamalar:
+
+Proje kodları bir .py dosyası github reposuna yüklenecek.
+
+Ödevlerin değerlendirilebilmesi için Github reposunun “public” olması gerekmektedir.
+
+Projeyi açıklayan kısa bir dokümantasyon veya açıklamalar olmalıdır. (hangi sınıfların kullanıldığı, sınıfların işlevleri vb.).
+
+Bu projelerden biri veya birkaçı, öğrendiklerinizi pekiştirirerek gerçek dünya uygulamalarını simüle etmenize yardımcı olacaktır. İsterseniz bir projeyi detaylıca geliştirebilirsiniz!
+
+Ödev Teslim Formu: https://forms.gle/1sdrr8ZBD42VCCRd8
+
